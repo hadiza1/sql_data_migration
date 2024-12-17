@@ -1,0 +1,4 @@
+3 basic ways to save file,folder.classes and methods
+1.camelCase
+2.PascalCase
+3.snake_case

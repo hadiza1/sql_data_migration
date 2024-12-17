@@ -1,0 +1,84 @@
+SELECT * 
+FROM SALESORDER;
+
+SELECT *
+FROM SALESORDER
+LIMIT 500;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM salesorder;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'salesorder';
+
+
+SELECT * 
+FROM region;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM region;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'region';
+
+SELECT *
+FROM Product;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM product;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'product';
+
+SELECT *
+FROM orderdetail;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM orderdetail;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'orderdetail';
+
+SELECT *
+FROM employee;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM employee;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'employee';
+
+SELECT *
+FROM EmployeeTerritory;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM  EmployeeTerritory;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'employeeterritory';
+
+SELECT *
+FROM customer;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM  customer;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'customer';
+
+SELECT *
+FROM shipper;
+
+SELECT COUNT(*) AS Num_of_rows
+FROM shipper;
+
+SELECT COUNT(*) AS Num_of_cols
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'shipper';
